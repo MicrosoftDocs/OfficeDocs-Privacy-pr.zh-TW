@@ -1,0 +1,68 @@
+### YamlMime:Hub
+title: Microsoft 隱私權
+summary: 您需要的 Microsoft 文件和資源，以為您的公司或組織開始使用隱私權。
+brand: m365
+metadata:
+  title: Microsoft 隱私權
+  description: 您需要的 Microsoft 文件和資源，以為您的公司或組織開始使用隱私權。
+  services: service
+  ms.service: service
+  ms.subservice: subservice
+  ms.topic: hub-page
+  ms.collection:
+    - M365-security-compliance
+  author: robmazz
+  ms.author: robmazz
+  ms.date: 11/15/2021
+  titleSuffix: Microsoft Privacy
+highlightedContent:
+  items:
+    - title: 了解 Microsoft 如何保護客戶隱私權
+      itemType: learn
+      url: 'https://privacy.microsoft.com/'
+    - title: 了解 Microsoft 365 隱私權標準
+      itemType: learn
+      url: /learn/modules/audit-privacy/
+    - title: 了解資料保護、隱私權法規和資料處理
+      itemType: learn
+      url: /learn/modules/intro-to-data-protection-privacy/
+    - title: 開始使用 Microsoft 雲端服務中的隱私權
+      itemType: get-started
+      url: 'https://www.microsoft.com/trust-center/privacy'
+productDirectory:
+  title: Microsoft Priva
+  summary: 開始使用 Priva，以協助貴組織保護 Microsoft 365 中的個人資訊，並建立具有隱私權彈性的工作場所。
+  items:
+    - title: 了解 Priva
+      imageSrc: /office/media/icons/task-list-planning-blue.svg
+      summary: Priva 提供組織工具，主動識別並防範隱私權風險，並協助您管理個人資料的儲存空間和移動。
+      url: /privacy/priva/priva-overview
+    - title: 開始使用 Priva
+      imageSrc: /office/media/icons/list-123-blue.svg
+      summary: 如果您已準備好開始使用 Microsoft Priva，以取得識別和降低隱私權風險的協助，請遵循下列步驟來設定先決條件，並開始使用隱私權深入解析。
+      url: /privacy/priva/priva-setup
+    - title: 使用隱私權風險管理來管理風險
+      imageSrc: /office/media/icons/tasks-blue.svg
+      summary: Priva 提供您設定識別 Microsoft 365 環境中的隱私權風險並啟用簡易補救的功能。
+      url: /privacy/priva/risk-management-policies
+    - title: 管理主體權利要求
+      imageSrc: /office/media/icons/process-flow-blue.svg
+      summary: Priva 主體權利要求可為您提供工作流程、自動化和共同作業，協助您處理個人資料要求。
+      url: /privacy/priva/subject-rights-requests
+additionalContent:
+  sections:
+    - title: 深入了解 Microsoft 服務中的隱私權
+      summary: 如果您是第一次使用隱私權，並想知道從何處開始使用 Microsoft 服務，本章節提供每個服務的重要隱私權區域連結。
+      items:
+        - title: Microsoft Azure
+          summary: 了解在 Azure 服務中儲存及處理資料的隱私權和機密性受到保護的方式，並且只以符合您期望的方式使用。
+          url: 'https://azure.microsoft.com/overview/trusted-cloud/privacy/'
+        - title: Dynamics 365
+          summary: Microsoft Dynamics 365 致力於協助客戶符合其隱私權、個人資料和一般資料保護規定 (GDPR) 需求。
+          url: /dynamics365/get-started/gdpr/
+        - title: Microsoft 365 Apps 企業版
+          summary: Microsoft 致力於提供您在使用 Microsoft 365 Apps 企業版時，對於收集和使用您的資料的方式進行選擇所需的資訊和控制。
+          url: /deployoffice/privacy/overview-privacy-controls
+        - title: Microsoft Windows
+          summary: 了解如何透過檢視和設定組織中的 Windows 診斷資料，以達到一般資料保護規定 (GDPR 需求)。
+          url: /windows/privacy/
