@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150fcf
 description: 瞭解如何為您的組織設定 Microsoft Priva，設定角色和許可權，以及設定重要設定。
-ms.openlocfilehash: 62e28361b57dd866b95ce566616473ed1a71e4ad
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 8df9367bd88fe9a8feecdbb00110345aae7a3d79
+ms.sourcegitcommit: a76dec53605c963d9bc134a26b7e09f600d6e940
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248891"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "62280245"
 ---
 # <a name="get-started-with-priva"></a>開始使用 Priva
 
-如果您準備好開始使用 Microsoft Priva 以協助識別及降低隱私權風險，請遵循下列步驟來設定必要條件，並開始探索隱私權深入瞭解。
+如果您已準備好開始使用 Microsoft Priva，以取得識別和降低隱私權風險的協助，請遵循下列步驟來設定先決條件，並開始使用隱私權深入解析。
 
 ## <a name="step-1-confirm-subscriptions-and-licensing"></a>步驟1：確認訂閱和授權
 
@@ -37,7 +37,7 @@ Priva 可在[Microsoft 365 合規性中心](https://compliance.microsoft.com/)�
 
 Priva 提供兩種不同解決方案的授權選項： Priva 隱私權風險管理和 Priva 主體權力要求。 這些可以個別購買，也可以一起購買。 取得主體權利要求的授權時，您可以針對需要處理的要求數量，選擇適當的授權層級。 您可以隨時購買其他要求。
 
-如需授權指南的詳細資料，請參閱：[Microsoft 365 安全性與合規性的授權指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#privacy-management)。
+如需授權指南的詳細資料，請參閱：[Microsoft 365 安全性與合規性的授權指南](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-priva)。
 
 > [!Note]
 > Priva 不適用於美國政府 Community (GCC) 適中、GCC 高或國防部 (DoD) 客戶。
