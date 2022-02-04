@@ -1,0 +1,38 @@
+- name: 了解 Microsoft Priva
+  href: priva-overview.md
+- name: 了解免費 Priva 試用版
+  href: priva-trial.md
+- name: 開始使用 Priva
+  href: priva-setup.md
+- name: 設定 Priva 的權限和角色
+  href: priva-permissions.md
+- name: 設定 Priva 設定
+  href: priva-settings.md
+- name: 在 Priva 中尋找並視覺化個人資料
+  href: priva-data-profile.md
+- name: 隱私權風險管理
+  items:
+    - name: 了解隱私權風險管理
+      href: risk-management.md
+    - name: 建立原則
+      href: risk-management-policies.md
+    - name: 管理原則
+      href: risk-management-policies-manage.md
+    - name: 調查與補救警示
+      href: risk-management-alerts.md
+    - name: 傳送使用者通知
+      href: risk-management-notifications.md
+- name: 主體權限要求
+  items:
+    - name: 了解主體權限要求
+      href: subject-rights-requests.md
+    - name: 建立要求
+      href: subject-rights-requests-create.md
+    - name: 設定資料比對
+      href: subject-rights-requests-data-match.md
+    - name: 查看資料並共同作業
+      href: subject-rights-requests-data-review.md
+    - name: 取得報告並履行要求
+      href: subject-rights-requests-reports.md
+    - name: 自動化工作
+      href: subject-rights-requests-automate.md
