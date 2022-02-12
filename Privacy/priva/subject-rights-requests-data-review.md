@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解如何查看由 Microsoft Priva 收集的主體權力要求資料，並在完成要求時進行共同作業。
-ms.openlocfilehash: d8420667d3ad9bd2e42a1d6fc34b4681d7166452
-ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
+ms.openlocfilehash: 0e1e3e4573730a0cc799f0fa30812eb45d74528b
+ms.sourcegitcommit: 875a7df5c2562eac6395e71c5bf83ba1d0a067d8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62542841"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62768427"
 ---
 # <a name="review-data-for-a-subject-rights-request"></a>檢查主體權力要求的資料
 
@@ -47,9 +47,9 @@ ms.locfileid: "62542841"
 因為要求可能需要一段時間或多個參與者運作，所以 Priva 會提供持續的狀態更新，以及接下來要採取的步驟。 您可以在 [主體權利要求的概覽] 頁面上查看這些更新。
 
 #### <a name="data-estimate"></a>資料預估
-當您建立要求之後，Priva 會立即開始尋找對 Microsoft 365 環境中的資料主體的潛在相符專案。 一旦我們識別出我們認為符合您準則的所有專案，您會在要求的 **[一覽**] 頁面上，看到 [**資料預估摘要** 卡] 中的估計值。 搜尋範圍內的資料量會影響完成估計所需的時間量。
+當您建立要求之後，Priva 會立即開始尋找對 Microsoft 365 環境中的資料主體的潛在相符專案。 一旦我們識別出我們認為符合您準則的所有專案，您會在要求的 **[一覽**] 頁面上，看到 [**資料預估摘要** 卡] 中的估計值。 搜尋範圍內的資料量會影響完成估計所需的時間長度。
 
-您的要求會自動移至下一階段的資料檢索，在這個階段中，所有的內容專案都會一起收集，這樣您的專案關係人就能在其資料審閱上進行共同作業。 不過，在某些情況下，我們會在移動至「檢索」之前暫停資料預估，並在繼續之前通知您後續的步驟進行。
+您的要求會自動移至下一步的資料檢索，其中所有的內容專案都會一起收集，以供專案關係人在資料評審上進行共同作業。 在某些情況下，我們會在移至 [檢索] 之前暫停資料預估，並在繼續之前通知您後續的步驟進行。
 
 您也可以選擇在您第一次建立主體權力要求時，自動暫停資料預估階段。 在建立過程中，選取 [**搜尋設定**] 步驟中的 [**取得預估優先**] 選項。 複查 [搜尋設定步驟](subject-rights-requests-create.md#define-search-settings)的詳細資料。
 
