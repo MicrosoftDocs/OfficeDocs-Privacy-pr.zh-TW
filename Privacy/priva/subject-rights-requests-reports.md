@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解如何管理 Microsoft Priva 所建立的主體許可權要求的套件，以及如何對資料主體進行要求。
-ms.openlocfilehash: 861a08b1f2ca5b3f82546c54db16c4518a8e9a70
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9931422434414146601ede959af910caf1befcc1
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248931"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542831"
 ---
 # <a name="generate-reports-and-fulfill-a-subject-rights-request"></a>產生報表並履行主體權力要求
 
@@ -56,7 +56,13 @@ ms.locfileid: "62248931"
 
 ## <a name="manage-data-retention"></a>管理資料保留
 
-透過此工具及相關資料（如儲存在 Azure 的批註檔案）所產生的報告會儲存指定的時間長度。 這段期間是透過「**資料保留期間**」區段中 **設定**，在全域層級定義，可讓您選擇30到90天。 請確認這些資料保留期間符合您的原則和法律義務。
+透過此工具及相關資料（如儲存在 Azure 的批註檔案）所產生的報告會儲存指定的時間長度。 資料保留期間是在 Priva **設定** 中定義，而且會套用到所有主體許可權要求。 若要查看或變更您的資料保留期間，請遵循下列步驟：
+
+1. 在 Priva 主體許可權要求的任何地方，**設定** 選取螢幕右上角) 的齒輪圖示 (。
+2. 選取左側導覽的 **資料保留期間** 。
+3. 使用下拉式功能表選取 [30 天] 或 [90 天] 作為保留期間。
+
+請務必確認您所選擇的資料保留期間符合組織的原則和法律義務。
 
 ## <a name="legal-disclaimer"></a>法律免責聲明
 

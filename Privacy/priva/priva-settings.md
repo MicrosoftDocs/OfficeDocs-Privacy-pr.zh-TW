@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 深入瞭解 Microsoft Priva 的通用設定選項。
-ms.openlocfilehash: d0dfe4fa303a5382e9a673127308fe1bf448062e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 9b59dcd875f248dd4a15be47d2f4383e8f656155
+ms.sourcegitcommit: 1f3f2757f456628ec904bc3df985b00ffba8f892
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248890"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62542821"
 ---
 # <a name="configure-priva-settings"></a>設定 Priva 設定
 
@@ -46,7 +46,7 @@ ms.locfileid: "62248890"
 
 ## <a name="data-retention-periods"></a>資料保留期間
 
-此設定與 Priva 主體權利要求相關。 它可讓您控制您想要在關閉要求之後，保留收集的資料和報告所產生之時間的喜好。 這可以設定為30或90天。 請確認這些資料保留期間符合您的原則和法律義務。 若要深入瞭解主題權力要求，請參閱 [瞭解 Priva 的主體權力要求](subject-rights-requests.md)。
+此設定與 Priva 主體權利要求相關。 它可讓您控制您要保留收集的資料和報告在要求關閉之後所產生之時間的喜好設定。 這可以設定為30或90天，並套用至您建立的所有主體權力要求。 建議您確認您的資料保留期間符合組織的原則和法律義務。 深入瞭解 [設定主體許可權要求的資料保留](subject-rights-requests-reports.md#manage-data-retention)。
 
 ## <a name="data-review-tags"></a>資料審閱標記
 
