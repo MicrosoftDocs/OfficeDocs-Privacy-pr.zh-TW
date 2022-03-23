@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva 中的主體權力要求解決方案可協助您找出個人資料，並共同查看內容和建立報告。
-ms.openlocfilehash: 2aba05ded8940331cedf21fdf67861f5fe403dac
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 25eb785651ec0edd1035aba54b20d19404619b80
+ms.sourcegitcommit: 02921b2dd438a517191522567908046b136a89e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62249071"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63758442"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>深入瞭解 Priva 的主體權力要求
 
@@ -31,9 +31,7 @@ Microsoft Priva 可協助您透過主體權利要求解決方案來處理這些�
 
 ## <a name="how-priva-supports-subject-rights-request-fulfillment"></a>Priva 對主體權力要求履行的支援
 
-主體權利要求週期始于組織的個人要求。 收到之後，您可以使用 Priva 的功能來收集該資料、共同作業、審閱及建立報告。 然後，您可以通知結果的資料主體，並在 Priva 之外進行其他任何必要的動作，以完成要求，例如刪除資料。 您也可以使用 Priva 的整合式 Power Automate 範本，協助您同時管理和自動化工作流程。
-
-![主體許可權要求的工作流程。](../media/priva-srr-cycle.png)
+主體權利要求週期始于組織的個人要求。 收到之後，您可以使用 Priva 的功能來收集該資料、共同作業、審閱及建立報告。 然後，您可以通知結果的資料主體，並在 Priva 之外進行其他任何必要的動作，以完成要求，例如刪除資料。 若要協助您同時管理和自動化工作流程，您也可以使用整合的 Power Automate 範本。
 
 ### <a name="create-requests-and-collect-data"></a>建立要求並收集資料
 
