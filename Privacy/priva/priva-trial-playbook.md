@@ -1,5 +1,5 @@
 ---
-title: 試用行動手冊： Microsoft Priva
+title: 試用版劇本：Microsoft Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 深入瞭解 Microsoft Priva 試用版，請參閱在試用期期間採取建議的動作，並查看重要檔的連結。
-ms.openlocfilehash: f75702c2f0dcc997f8d0e8bdb6ab154cc4bca5fc
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 3004a39da2627e7a0f8da1e27bd0456d3b06881d
+ms.sourcegitcommit: beeb693075ef692e95d679f366301df8517b2ac3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248893"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63765506"
 ---
-# <a name="trial-playbook-microsoft-priva"></a>試用行動手冊： Microsoft Priva
+# <a name="trial-playbook-microsoft-priva"></a>試用版劇本：Microsoft Priva
 
 歡迎使用 Microsoft Priva 試用行動手冊。
 
@@ -47,7 +47,7 @@ ms.locfileid: "62248893"
 - 讓資訊工作者可以進行智慧決策以處理此資料
 - 讓使用者有效地管理資料，並採取步驟來遵守不斷演變的隱私權法規
 
-### <a name="subject-rights-requests"></a>主體權力要求
+### <a name="subject-rights-requests"></a>主體權限要求
 
 透過「 **主題權利要求** 」解決方案，您可以瞭解如何處理初始要求產生報告的查詢。
 
@@ -122,7 +122,7 @@ Priva 可協助您瞭解組織所儲存的資料，方式是自動化個人資�
 1. [修正電子郵件通知中的問題](risk-management-notifications.md#remediate-issues-from-email-notifications)
 1. [在 Teams 中傳送通知](risk-management-notifications.md#send-notifications-in-teams)
 
-## <a name="learn-about-subject-rights-requests"></a>深入瞭解主題權力要求
+## <a name="learn-about-subject-rights-requests"></a>了解主體權限要求
 
 根據世界各地的某些隱私權規定，個人 (或資料主體) 可能要求複查或管理公司所收集的個人資料。 這些要求有時也稱為資料主體要求 (Dsr) 、資料主體存取要求 (DSARs) 或使用者權限要求。 Priva 的主體權力要求可協助您處理這些查詢。
 
@@ -163,9 +163,9 @@ Priva 可協助您瞭解組織所儲存的資料，方式是自動化個人資�
 
 在您完成主體權利要求的資料複查之後，您可以繼續要求履行。
 
-1. [準備資料主體的最終報表](subject-rights-requests-reports.md#prepare-final-reports-for-the-data-subject)
+1. [準備資料主體的最終報表](subject-rights-requests-reports.md)
 1. [與合作夥伴解決方案整合](subject-rights-requests-reports.md#integrate-with-partner-solutions)
-1. [管理資料保留](subject-rights-requests-reports.md#manage-data-retention)
+1. [管理資料保留](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
 ## <a name="automate-subject-rights-requests-tasks"></a>自動化主體權利要求工作
 
