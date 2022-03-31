@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解如何在 Microsoft 365 中建立及自訂用來處理組織個人資料的隱私權原則。
-ms.openlocfilehash: ce8f2d5e6728bcd01a99775450668c002c9cb59e
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: d8519be0bec0e858483e32382478b0f8b9f4f872
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248920"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586446"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>在隱私權風險管理中建立原則
 
@@ -90,13 +90,13 @@ ms.locfileid: "62248920"
 
 資料最小化原則著重于內容的年齡和自上次修改的時間。 監視仍保留在舊的未使用內容中的個人資料，可協助您更好地管理儲存的資料，並降低風險。 在 [ **條件** ] 畫面上處理此設定。
 
-根據預設，資料最小化原則會尋找包含已建立或上次修改60天前的個人資料的內容。 當您編輯或建立自訂原則時，您可以從其他的預設時間範圍選取。
+根據預設，資料最小化原則會尋找包含已建立或上次修改30天前的個人資料的內容。 當您編輯或建立自訂原則時，您可以從其他的預設時間範圍選取。
 
 ## <a name="learn-about-settings-for-data-transfer-policies"></a>深入瞭解資料傳輸原則的設定
 
 資料傳輸原則可讓您監視在世界各地的某些地區之間或組織不同部門之間傳輸的資料。 在 [ **條件** ] 畫面上，您可以選擇要尋找哪種類型的傳輸隱私權風險管理。
 
-根據預設，資料傳送原則會尋找北美和其他地區之間的轉接。 當您編輯或建立自訂原則時，您可以選擇傳送類型，然後對寄件者和收件者地區或部門進行選擇。
+根據預設，資料傳送原則會尋找北美洲與其他地區之間的轉接。 當您編輯或建立自訂原則時，您可以選擇傳送類型，然後對寄件者和收件者地區或部門進行選擇。
 
 資料傳送原則也支援在 Teams 中提供使用者的原則秘訣和建議，讓他們可以隨時瞭解處理資料的最佳作法。 這可在 [ **結果** ] 畫面上進行切換。
 

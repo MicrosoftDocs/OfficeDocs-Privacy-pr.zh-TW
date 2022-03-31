@@ -1,5 +1,5 @@
 ---
-title: 深入瞭解 Microsoft Priva
+title: 了解 Microsoft Priva
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva 可協助組織評估 Microsoft 365 中儲存的個人資料，協助他們識別和修正隱私權風險，並協助他們以比例管理主體權力要求。
-ms.openlocfilehash: 0aa8953a1ce763c6a54587f3ac0c02ffcad675fd
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+ms.openlocfilehash: 347756c2e18c1480bd8d7a2b497515ab57794ddd
+ms.sourcegitcommit: 23e6748ab228e508a3de7d4dab5c40dc9f25df79
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248894"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64586456"
 ---
-# <a name="learn-about-microsoft-priva"></a>深入瞭解 Microsoft Priva
+# <a name="learn-about-microsoft-priva"></a>了解 Microsoft Priva
 
 目前的組織和消費者會考慮隱私權，以及如何處理私人資料的相關關注事項，是否會持續增加。 規章和法律（如歐盟的一般資料保護法規 (GDPR) 和加州消費者隱私權法案 (CCPA) 會影響世界各地的人員，設定組織如何儲存個人資料，以及提供人員管理組織所收集的個人資料的規則。
 
@@ -102,17 +102,46 @@ Priva 會評估您組織的資料儲存在 Microsoft 365 租使用者的下列 M
 
 Priva 只評估組織 Microsoft 365 環境中的資料。 它不會存取並非組織 Microsoft 365 環境一部分的個人資料。 例如，它不會存取使用者的個人 Microsoft 365 帳戶。
 
+## <a name="priva-availability"></a>Priva 可用性
+
+Microsoft Priva 已在全球範圍內滾。 根據組織布建其租使用者的位置，Priva 可能無法完整使用。 下列清單根據組織已布建其租使用者的位置，列出 Priva 可用性。 如果您無法使用 Priva，則在 Microsoft 365 合規性中心的左側導覽中， **Priva 隱私權風險管理** 和 **Priva 主體權力要求** 不會出現。 我們會繼續更新此清單，因為所有地理位置都可以存取 Priva。
+
+流覽[Microsoft 365 多地理](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-multi-geo)位置，以深入瞭解如何布建地理區域和國家/地區的資料。
+
+**可以使用**
+
+- 澳洲
+- 巴西
+- 加拿大
+- 法國
+- 德國
+- 印度
+- 日本
+- 英國
+- 美國 (附注：無法供美國政府 Community (GCC) 適中、GCC 高或國防部 (DoD) 客戶。 ) 
+
+**尚未提供**
+
+- 挪威
+- 波蘭
+- 卡達
+- 新加坡
+- 南非
+- 韓國
+- 西班牙
+- 瑞典
+- 瑞士
+- 阿拉伯聯合大公國
+
 ## <a name="more-resources"></a>其他資源
 
-若要查看 Priva 的影片預覽，請透過 YouTube 上的 Microsoft 機制[來查看以 AI 為基礎的隱私權管理 Microsoft 365](https://www.youtube.com/watch?v=6OLky1biPIQ) 。
+觀賞13分鐘的 [影片，說明 Microsoft Priva](https://www.youtube.com/watch?v=6OLky1biPIQ) YouTube 上的 microsoft 的功能。
 
-如需 Microsoft 如何隱私權及保護您資料的詳細資訊，請造訪：
-
-- [Microsoft 隱私權](/privacy)
+如需 Microsoft 如何隱私權及保護您資料的詳細資訊，請造訪 [Microsoft 隱私權](/privacy)。
 
 ## <a name="next-steps"></a>後續步驟
 
-若要開始使用 Priva，請參閱 [Priva 的快速入門](priva-setup.md)。
+若要開始使用 Priva，請參閱[開始 with Priva](priva-setup.md)。
 
 ## <a name="legal-disclaimer"></a>法律免責聲明
 
