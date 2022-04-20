@@ -1,5 +1,5 @@
 ---
-title: 主體權力要求的資料符合
+title: 主體許可權要求的資料比對
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,38 +15,38 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 瞭解如何將其他資訊上傳至 Priva 資料主體的 Microsoft。
-ms.openlocfilehash: 1339962a1c4dba18a1d0b21d8a2cebb17ad0f91a
-ms.sourcegitcommit: f145dff5e387a8e26db2f3a2c7de125978fbacc9
+description: 瞭解如何將資料主體的其他資訊上傳至 Microsoft Priva。
+ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248927"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930577"
 ---
-# <a name="data-matching-for-subject-rights-requests"></a>主體權力要求的資料符合
+# <a name="data-matching-for-subject-rights-requests"></a>主體許可權要求的資料比對
 
-透過資料比對，組織可以讓 Microsoft Priva 根據正確提供的資料值來識別資料主體。 這有助於提高針對內部人員和您與您互動的外部使用者，尋找與這些資料值相對應的資料主體內容的準確性。 此外，它也可簡化在建立主體許可權時手動提供欄位的需求，並提供主題許可權要求中的內容，以及顯示最具資料主體內容之專案的總覽磚。 若要深入瞭解該視圖，請參閱 [在 Priva 中尋找及顯示個人資料](priva-data-profile.md#items-with-the-most-data-subject-content)。
+透過資料比對，組織可以讓 Microsoft Priva 根據確切提供的資料值來識別資料主體。 這有助於提高尋找資料主體內容的精確度，這些內容對應于內部人員和與您互動之外部使用者的資料值。 它也簡化了在主體許可權要求建立期間手動提供欄位的需求，並提供主體許可權要求和 [概觀] 圖格中的內容，以展示具有最多資料主體內容的專案。 若要深入瞭解該檢視，請 [參閱在 Priva 中尋找個人資料並將其視覺化](priva-data-profile.md#items-with-the-most-data-subject-content)。
 
-若要使用資料符合功能，您必須是隱私權管理角色群組的成員。 在 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)的 [Priva] 中，選取上方導覽中的 [**設定**]，然後選取 [**資料** 比對]。 在這裡，您將需要定義個人資料架構，並提供個人資料上傳，如下所示。 請注意，您可以新增專案，也可以刪除透過 UI 新增的專案。 不過，您此時無法從 UI 修改專案。
+若要使用資料比對功能，您必須是隱私權管理角色群組的成員。 從 [Microsoft Purview 合規性](https://compliance.microsoft.com/)入口網站的 Priva 內，選取頂端導 **覽中的 [設定**]，然後選取 **[資料比對]**。 從這裡開始，您必須定義個人資料架構，並提供個人資料上傳，如下所示。 請注意，您可以新增專案，而且可以刪除透過 UI 新增的專案。 不過，您目前無法從 UI 就地修改專案。
 
 ## <a name="prepare-for-data-import"></a>準備資料匯入
 
-在定義架構或上傳資料之前，您需要識別資料主體資訊的來源。 必要的檔案格式為 .csv，可由諸如 Microsoft Excel 等應用程式讀取。 結構此匯出，使欄標題出現在第一列。 這些標題應包含您個人資料架構的屬性名稱。 檢查每個欄位中的資料格式。 如果有任何資料包含逗號，請使用雙引號括住這些值，以確保不會將它剖析成不同的欄位。
+在定義架構或上傳資料之前，您必須識別資料主體資訊的來源。 所需的檔案格式.csv，可由應用程式讀取，例如Microsoft Excel。 將此匯出結構化，讓您的資料行標頭出現在第一個資料列中。 這些標頭應該包含您個人資料架構的屬性名稱。 檢查每個欄位中的資料格式。 如果任何資料包含逗號，請以雙引號括住這些值，以確保不會剖析成個別的欄位。
 
 ## <a name="define-the-personal-data-schema"></a>定義個人資料架構
 
-個人資料架構會說明資料主體的屬性。 在 [資料對應設定] 區域的第一個索引標籤上 Upload 此架構。 必要檔案包含 **個人資料架構** xml 檔和 **規則套件** xml 檔案。
+個人資料架構會描述資料主體的屬性。 在資料比對設定區域的第一個索引標籤上，Upload此架構。 必要的檔案包括 **個人資料架構** XML 檔案和 **規則套** 件 XML 檔案。
 
 ### <a name="personal-data-schema-xml"></a>個人資料架構 XML
 
-個人資料架構檔案是一個 XML 檔，可定義預期的欄名稱。
+個人資料架構檔案是 XML 檔案，可定義預期的資料行名稱。
 
-- 將此架構檔案命名為 *pdm.xml*。
-- 使用下列範例所示的功能變數名稱標記，定義每個欄名稱。
-- 可搜尋 = "true" 為您想要搜尋的欄位，最多可以有五個欄位。 您必須至少有一個功能變數名稱可供搜尋。 範例語法： `\<Field name="" searchable=""/>` 。
-- 個人資料架構具有「資料存儲」標記區段。 必須將四個強制欄位對應至您的功能變數名稱： primaryKeyField、upnField、firstNameField、lastNameField。
+- 將此架構檔案 *命名為pdm.xml*。
+- 使用功能變數名稱標籤定義每個資料行名稱，如下列範例所示。
+- 針對您想要搜尋的欄位使用可搜尋 = 「true」，最多五個欄位。 您至少必須要搜尋其中一個功能變數名稱。 範例語法： `\<Field name="" searchable=""/>` 。
+- 個人資料架構具有 DataStore 標記區段。 四個必要欄位必須對應至您的功能變數名稱：primaryKeyField、upnField、firstNameField、lastNameField。
 
-舉例來說，下列 XML 檔案會定義一個範例架構，其中有五個指定為可搜尋的欄位： PatientID、MRN、SSN、電話及 DOB。 PrimaryKeyField 會對應至 PatientID，upnField 會對應至 MRN，firstNameField 會對應至 FirstName，而 lastNameField 會對應至 LastName。
+例如，下列 XML 檔案會定義範例架構，其中五個欄位指定為可搜尋：PatientID、MRN、SSN、電話 和 DOB。 primaryKeyField 會對應至 PatientID、upnField 會對應至 MRN、firstNameField 會對應至 FirstName，而 lastNameField 會對應至 LastName。
 
 您可以複製、修改及使用我們的範例。
 
@@ -68,26 +68,26 @@ ms.locfileid: "62248927"
 
 ### <a name="rule-package-xml"></a>規則套件 XML
 
-當您設定規則套件時，請務必正確參考上述建立的個人資料架構檔案： pdm.xml。 在下列範例規則套件 XML 中，必須自訂下欄欄位，以建立資料符合機密類型：
+當您設定規則套件時，請務必正確參考上面建立的個人資料架構檔案：pdm.xml。 在下列範例規則套件 XML 中，必須自訂下欄欄位，才能建立您的資料比對敏感性類型：
 
-- **RulePack 識別碼**  & **PrivacyMatch 識別碼**：使用新的 guid 來產生 GUID。
-- **資料** 儲存：此欄位會指定要使用的個人資料相符的查閱資料存放區。 為已設定的個人資料架構提供已定義的資料存儲名稱。
-- **idMatch**：此欄位指向 [個人資料相符] 的主要元素。
-  - **相符項目**：指定要在精確查閱中使用的欄位。 提供個人資料架構的可搜尋功能變數名稱。
-  - **分類**：此欄位指定觸發個人資料相符的敏感類型相符專案。 您可以提供現有內建或自訂敏感性資訊類型的名稱或 GUID。 為了避免出現效能問題，如果您使用自訂的機密資訊類型做為個人資料符合中的分類元素，請勿使用會符合大量內容 (的自訂敏感資訊類型，例如 "任何數位" 或 "任何五個字母的字" ) 。 建議您新增支援關鍵字，或在自訂分類機密資訊類型的定義中包含格式設定。
+- **RulePack 識別碼**  & **PrivacyMatch 識別碼**：使用 New-GUID 來產生 GUID。
+- **資料存放區**：此欄位會指定要使用的個人資料比對查閱資料存放區。 提供已設定個人資料架構的已定義 DataStore 名稱。
+- **idMatch**：此欄位指向個人資料相符的主要元素。
+  - **相符項目**：指定要在精確查閱中使用的欄位。 從個人資料架構提供可搜尋的功能變數名稱。
+  - **分類**：此欄位會指定觸發個人資料比對查閱的敏感性類型比對。 您可以提供現有內建或自訂敏感性資訊類型的名稱或 GUID。 為了避免造成效能問題，如果您在個人資料比對中使用自訂敏感性資訊類型作為分類元素，請勿使用符合大量內容百分比的自訂敏感性資訊類型 (例如「任何數位」或「任何五個字母的字」) 。 建議您新增支援的關鍵字，或在自訂分類敏感性資訊類型的定義中包含格式設定。
 - **相符項目**：此欄位會指向 idMatch 鄰近位置的其他辨識項。
-  - **相符**：在資料存儲的個人資料架構中提供任何功能變數名稱。
-- **Resource**：此區段會在多個地區設定中指定敏感類型的名稱和描述。
+  - **相符** 專案：在 DataStore 的個人資料架構中提供任何功能變數名稱。
+- **資源**：本節會在多個地區設定中指定敏感性類型的名稱和描述。
   - **idRef**：提供 ExactMatch 識別碼的 GUID。
-  - **名稱 & 描述**：按需自訂。
+  - **名稱&描述**：視需要自訂。
 
-在下列的規則套件 XML 範例中，我們會參考上一個步驟中建立個人資料架構 XML 的 pdm.xml 範例檔案：
+在下列規則套件 XML 範例中，我們會參考上一個步驟中建立個人資料架構 XML 的pdm.xml範例檔案：
 
-- **資料** 檔：資料檔案名稱參考我們先前建立的架構檔案：資料檔案 = "PatientRecords"。
-- **idMatch**： idMatch 值會參照先前建立的 pdm.xml 檔案中所列出的可搜尋欄位： idMatch 相符 = "SSN"。
-  - **分類**：分類值參考現有或自訂的機密資訊類型：分類 = "U.S. Social Security NUMBER (SSN) "。 (在此案例中，我們使用美國社會安全號碼作為現有的敏感性資訊類型)。
+- **資料存放區：dataStore** 名稱會參考我們稍早建立的架構檔案：dataStore = 「PatientRecords」。
+- **idMatch**：idMatch 值會參考我們稍早建立的pdm.xml檔案中所列的可搜尋欄位：idMatch 符合 = 「SSN」。
+  - **分類**：分類值會參考現有或自訂敏感性資訊類型：分類 = 「美國社會安全號碼 (SSN) 」。 (在此案例中，我們使用美國社會安全號碼作為現有的敏感性資訊類型)。
 
-以 Unicode 編碼) 以 XML 格式 (建立規則套件，如下列程式碼範例所示。 您可以複製、修改及使用此範例。
+使用 Unicode 編碼) 建立 XML 格式 (規則套件，如下列範例程式碼所示。 您可以複製、修改及使用此範例。
 
  ```xml
 <RulePackage xmlns="http://schemas.microsoft.com/office/2020/pdm">
@@ -129,11 +129,11 @@ ms.locfileid: "62248927"
 </RulePackage>
  ```
 
-## <a name="upload-personal-data"></a>Upload 個人資料
-在定義個人資料架構之後，您可以在 [資料比對設定] 頁面的第二個索引標籤上執行 [ **個人資料上傳** ]。 當您選取 [ **新增**] 時，請選擇您在第一個步驟中定義的個人架構，然後上傳包含個人資料的檔。
+## <a name="upload-personal-data"></a>Upload個人資料
+定義個人資料架構之後，您可以在資料比對設定頁面的第二個索引標籤上 **執行個人資料上傳** 。 當您選取 [ **新增**] 時，請選擇您在第一個步驟中定義的個人架構，然後上傳包含個人資料的檔案。
 
-您可以選擇本機檔，或提供 SAS URL 至包含您個人資料檔的現有 Microsoft Azure 儲存體位置，以上傳此個人資料。
-如果您已在此程式中，將檔案當做符合建立之架構的第一個步驟，您可以使用該檔案進行上傳。
+您可以選擇本機檔案，或將 SAS URL 提供給包含您個人資料檔案的現有Microsoft Azure 儲存體位置，來上傳此個人資料。
+如果您將檔案備妥為此程式中符合所建立架構的第一個步驟，您可以使用該檔案進行上傳。
 
 ## <a name="legal-disclaimer"></a>法律免責聲明
 

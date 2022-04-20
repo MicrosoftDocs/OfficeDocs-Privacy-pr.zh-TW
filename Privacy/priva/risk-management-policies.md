@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解如何建立和自訂隱私權原則，以在Microsoft 365中處理貴組織的個人資料。
-ms.openlocfilehash: 6a8fa5a77e681f9626bfc28e53d193986b40e0cb
-ms.sourcegitcommit: 3d00addbca48a7393cf4e4b67ef24696fb9b7dd8
+ms.openlocfilehash: 2b655d778e73e2107c289988966fb491bf3ebb2e
+ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64865772"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64930504"
 ---
 # <a name="create-policies-in-privacy-risk-management"></a>在隱私權風險管理中建立原則
 
@@ -33,7 +33,7 @@ ms.locfileid: "64865772"
 
 請遵循下列步驟，使用任何預設範本來建立原則。
 
-1. 在 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)中，移至 [Priva Privacy Risk Management] 區段，然後選取 [**原則]**。
+1. 在 [Microsoft Purview 合規性入口網站](https://compliance.microsoft.com/)中，移至 [Priva Privacy Risk Management] 區段，然後選取 [ **原則]**。
 1. 選取 **[建立原則]**。
 1. 選擇您想要的範本類型。 這會開啟包含範本相關資訊的飛出視窗窗格。
 1. 若要檢閱範本的預設設定，包括資料類型、資料位置，以及觸發原則相符的條件，請選取 [ **檢視設定]**。
@@ -48,7 +48,7 @@ ms.locfileid: "64865772"
 
 所有原則類型都遵循此基本流程。 某些設定和選項會根據您選擇的原則而變更。
 
-1. 在 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)中，移至 [Priva Privacy Risk Management] 區段，然後選取 [**原則]**。
+1. 在 [Microsoft Purview 合規性入口網站](https://compliance.microsoft.com/)中，移至 [Priva Privacy Risk Management] 區段，然後選取 [ **原則]**。
 1. 選取 **[建立原則]**。
 1. 選擇 **[自訂]** 選項以開始使用精靈。
 1. 選擇基準範本類型：**資料過度表達、****資料傳輸** 或 **資料最小化**。 每個選項都會在原則建立期間提供您特定的選項。
