@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解 Microsoft Priva 試用版、查看試用期間要採取的建議動作，以及檢閱重要檔的連結。
-ms.openlocfilehash: 567901cf75440b76fc5c3b755894cada188d6505
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
+ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930524"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65014393"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>試用版劇本：Microsoft Priva
 
@@ -87,21 +87,21 @@ Priva 可藉由自動化個人資料資產的探索，並提供基本資訊的�
 
 ## <a name="create-and-customize-policies"></a>建立及自訂原則
 
-在隱私權風險管理中建立新的原則，以解決對貴組織很重要的隱私權風險案例。 如需快速入門，請使用預設範本來建立資料過度使用、資料傳輸，以及資料最小化和案例的新原則。
+在隱私權風險管理中建立新的原則，以解決對貴組織很重要的隱私權風險案例。 如需快速入門，請使用範本預設設定來建立資料過度使用、資料傳輸，以及資料最小化和案例的新原則。
 
-1. [從範本建立原則](risk-management-policies.md#create-a-policy-from-a-template)
-1. [建立自訂原則](risk-management-policies.md#create-a-custom-policy)
-1. [瞭解所有原則的金鑰設定](risk-management-policies.md#learn-about-key-settings-for-all-policies)
-1. [瞭解資料最小化原則的設定](risk-management-policies.md#learn-about-settings-for-data-minimization-policies)
-1. [瞭解資料傳輸原則的設定](risk-management-policies.md#learn-about-settings-for-data-transfer-policies)
-1. [瞭解資料過度匯出原則的設定](risk-management-policies.md#learn-about-settings-for-data-overexposure-policies)
+1. [使用具有預設設定的範本建立原則](risk-management-policies.md#quick-setup-using-a-template-with-default-settings)
+1. [透過自訂範本設定來建立原則](risk-management-policies.md#custom-setup-guided-process-to-choose-all-settings)
+1. [瞭解所有原則的金鑰設定](risk-management-policies.md)
+1. [瞭解資料最小化原則的設定](risk-management-policy-data-minimization.md)
+1. [瞭解資料傳輸原則的設定](risk-management-policy-data-transfer.md)
+1. [瞭解資料過度匯出原則的設定](risk-management-policy-data-overexposure.md)
 
 ## <a name="manage-policies"></a>管理原則
 
 在隱私權風險管理中建立原則以處理資料最小化、資料傳輸或資料過度公開案例之後，您可能想要檢閱或更新原則設定。 您可能也想要在完全推出新原則以供持續使用之前，先測試新原則。
 
-1. [檢視原則詳細資料](risk-management-policies-manage.md#view-policy-details)
-1. [測試您的原則](risk-management-policies-manage.md#test-your-policy)
+1. [檢視原則詳細資料](risk-management-policies-manage.md#view-details-and-activity-from-the-policy-details-page)
+1. [測試您的原則](risk-management-policies-manage.md#testing-a-policy)
 1. [刪除原則](risk-management-policies-manage.md#delete-a-policy)
 
 ## <a name="understand-policy-alerts-and-issues"></a>了解原則警示和問題
@@ -117,9 +117,9 @@ Priva 可藉由自動化個人資料資產的探索，並提供基本資訊的�
 
 隱私權風險管理可以直接通知內容擁有者您的資料過度公開、資料最小化和資料傳輸原則的相符專案。 透過電子郵件通知，您的使用者可以輕鬆地找出他們需要檢閱的內容。
 
-1. [準備原則通知的訓練內容](risk-management-notifications.md#prepare-training-content-for-policy-notifications)
-1. [設定原則的電子郵件通知](risk-management-notifications.md#set-up-email-notifications-for-policies)
-1. [補救電子郵件通知的問題](risk-management-notifications.md#remediate-issues-from-email-notifications)
+1. [準備原則通知的訓練內容](risk-management-notifications.md#prepare-training-content-for-notifications)
+1. [設定原則的電子郵件通知](risk-management-notifications.md#set-user-email-notifications)
+1. [預覽和自訂電子郵件通知](risk-management-notifications.md#preview-and-customize-email-content)
 1. [在 Teams 中傳送通知](risk-management-notifications.md#send-notifications-in-teams)
 
 ## <a name="learn-about-subject-rights-requests"></a>了解主體權限要求
