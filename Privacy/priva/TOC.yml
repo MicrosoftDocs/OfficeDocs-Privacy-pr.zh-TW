@@ -14,10 +14,14 @@
   items:
     - name: 了解隱私權風險管理
       href: risk-management.md
-    - name: 建立原則
+    - name: 了解如何建立及管理原則
       href: risk-management-policies.md
-    - name: 管理原則
-      href: risk-management-policies-manage.md
+    - name: 建立資料過度暴露原則
+      href: risk-management-policy-data-overexposure.md
+    - name: 建立資料傳輸原則
+      href: risk-management-policy-data-transfer.md
+    - name: 建立資料最少化原則
+      href: risk-management-policy-data-minimization.md
     - name: 調查與補救警示
       href: risk-management-alerts.md
     - name: 傳送使用者通知
