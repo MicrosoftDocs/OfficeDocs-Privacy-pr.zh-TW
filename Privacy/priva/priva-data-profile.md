@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解 Priva 中的概觀和資料設定檔，以及如何深入瞭解貴組織Microsoft 365環境中的個人資料。
-ms.openlocfilehash: 13a27fde86abf87fa4c08528f41976fdc58fe02f
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930594"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059747"
 ---
 # <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>在 Microsoft Priva 中尋找並視覺化個人資料
 
@@ -75,7 +75,7 @@ Microsoft Priva 可藉由自動化個人資料資產的探索，並提供基本�
 
 #### <a name="items-with-the-most-data-subject-content"></a>具有最多資料主體內容的專案
 
-此深入解析會參考主體許可權要求中資料比對功能的資訊，並呈現在包含最多資料主體的Microsoft 365內探索到的內容專案。 若要深入瞭解該設定，請參 [閱瞭解主體許可權要求](subject-rights-requests.md)。
+此深入解析會呈現內容專案，其中包含大部分資料主體的個人資料。 若要接收這些深入解析，您的組織必須設定 [主體許可權要求的資料比對](subject-rights-requests-data-match.md)。
 
 這些專案有助於確認您的資料比對設定，並協助您降低與這些專案相關的隱私權風險。 選 **取摘要檢視的 [檢視摘要** ]。 選 **取 [探索** ] 以取得最多 100 個這些專案的詳細檢視。 您可以在這裡預覽這些專案並判斷相關性，並以.csv格式匯出清單。
 
