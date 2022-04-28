@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解如何將資料主體的其他資訊上傳至 Microsoft Priva。
-ms.openlocfilehash: 76bd16f99a4a8ff9733c37a5787113e96c76c31c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: 90ee0e8e21d25954c11113992cbb7ece847c85ab
+ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930577"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65059737"
 ---
 # <a name="data-matching-for-subject-rights-requests"></a>主體許可權要求的資料比對
 
 透過資料比對，組織可以讓 Microsoft Priva 根據確切提供的資料值來識別資料主體。 這有助於提高尋找資料主體內容的精確度，這些內容對應于內部人員和與您互動之外部使用者的資料值。 它也簡化了在主體許可權要求建立期間手動提供欄位的需求，並提供主體許可權要求和 [概觀] 圖格中的內容，以展示具有最多資料主體內容的專案。 若要深入瞭解該檢視，請 [參閱在 Priva 中尋找個人資料並將其視覺化](priva-data-profile.md#items-with-the-most-data-subject-content)。
 
-若要使用資料比對功能，您必須是隱私權管理角色群組的成員。 從 [Microsoft Purview 合規性](https://compliance.microsoft.com/)入口網站的 Priva 內，選取頂端導 **覽中的 [設定**]，然後選取 **[資料比對]**。 從這裡開始，您必須定義個人資料架構，並提供個人資料上傳，如下所示。 請注意，您可以新增專案，而且可以刪除透過 UI 新增的專案。 不過，您目前無法從 UI 就地修改專案。
+若要使用資料比對功能，您必須是隱私權管理角色群組的成員。 從 [Microsoft Purview 合規性](https://compliance.microsoft.com/)入口網站的 Priva 內，選取頂端導 **覽中的 [設定**]，然後選取 **[資料比對]**。 從這裡開始，您必須定義個人資料架構，並提供個人資料上傳，如下所示。 請注意，您可以新增專案，而且可以刪除新增的專案，但無法修改專案。
 
 ## <a name="prepare-for-data-import"></a>準備資料匯入
 
@@ -35,7 +35,7 @@ ms.locfileid: "64930577"
 
 ## <a name="define-the-personal-data-schema"></a>定義個人資料架構
 
-個人資料架構會描述資料主體的屬性。 在資料比對設定區域的第一個索引標籤上，Upload此架構。 必要的檔案包括 **個人資料架構** XML 檔案和 **規則套** 件 XML 檔案。
+設定資料比對的第一個步驟是定義個人資料架構，以描述資料主體的屬性。 您將在資料比對設定區域的第一個索引標籤上傳此架構。 必要的檔案包括 **個人資料架構** XML 檔案和 **規則套** 件 XML 檔案。
 
 ### <a name="personal-data-schema-xml"></a>個人資料架構 XML
 
@@ -129,8 +129,13 @@ ms.locfileid: "64930577"
 </RulePackage>
  ```
 
+## <a name="sensitive-info-types"></a>敏感性資訊類型
+
+設定資料比對的第二個步驟是建立個人資料比對的唯一敏感性資訊類型 (PDM) 。 [ (SIT) 的敏感性資訊類型 ](/microsoft-365/compliance/sensitive-information-type-learn-about)是模式型分類器，可偵測社會安全或信用卡號碼等敏感性資訊。 設定 PDM 敏感性資訊類型可讓您使用確切的資料值，而不是一般值來偵測相符專案。 若要開始此步驟，請選 **取 [建立 PDM 敏感性資訊類型** ] 以開始建立精靈。
+
 ## <a name="upload-personal-data"></a>Upload個人資料
-定義個人資料架構之後，您可以在資料比對設定頁面的第二個索引標籤上 **執行個人資料上傳** 。 當您選取 [ **新增**] 時，請選擇您在第一個步驟中定義的個人架構，然後上傳包含個人資料的檔案。
+
+定義個人資料架構和敏感性資訊類型之後，第三個步驟是上傳個人資料。 移至 [ **個人資料上傳] 索引卷** 標，選取 [ **新增**]，然後選擇您在第一個步驟中定義的個人架構，然後上傳包含個人資料的檔案。
 
 您可以選擇本機檔案，或將 SAS URL 提供給包含您個人資料檔案的現有Microsoft Azure 儲存體位置，來上傳此個人資料。
 如果您將檔案備妥為此程式中符合所建立架構的第一個步驟，您可以使用該檔案進行上傳。
