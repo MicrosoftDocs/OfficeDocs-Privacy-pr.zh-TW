@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解如何在 Microsoft Priva 中建立新的主體許可權要求。
-ms.openlocfilehash: b2d846aa4020be315705bbd16e00378c7514146c
-ms.sourcegitcommit: 09ecdaded9a9f8f79587f2acb978dc53b83e5c01
+ms.openlocfilehash: af772d585e3e9b554f42f6adde99bba19173ee03
+ms.sourcegitcommit: 6b88d22d0250cbb9a4ba1f71665f29cb67939851
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64930604"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65059727"
 ---
 # <a name="create-a-subject-rights-request"></a>建立主體許可權要求
 
@@ -38,6 +38,21 @@ Priva Subject Rights Requests 支援三種不同類型的要求：
 2. **導** 出：提供包含資料主體個人資訊的內容專案摘要和匯出的檔案。 這些專案會在您檢閱搜尋設定所收集的資料期間檢閱並標示為 [ **已** 包含]。
 
 3. **已標記的待處理清單**：產生在資料檢閱期間標記的任何檔案摘要，這些檔案可能需要在 Priva 外部採取其他動作。 例如，您可能需要根據其要求來協助刪除資料主體的個人資訊。 您可以在 [Priva 設定](priva-settings.md)中檢視包含的標籤，並為您的組織設定自訂標籤。
+
+## <a name="getting-started-with-your-first-request"></a>開始使用您的第一個要求
+
+當您開始試用或訂閱主體許可權要求時，我們會為使用預設設定的第一個要求提供簡單、現成的設定。 此設定可協助您探索主體許可權要求工作流程，並熟悉其功能。
+
+第一次到達 [主體權利要求] 頁面時，您會在頂端看到橫幅，其中包含 **[開始**] 按鈕。 當使用者選取此按鈕時，會出現飛出視窗窗格，其中已預先填入該使用者的資訊到名稱和電子郵件欄位中，並顯示所有預設設定。
+
+**使用您的資訊探索要求功能**：根據您自己的資訊嘗試主體權利要求，可協助您熟悉並放心地在程式的每個階段中移動。 您會看到預設的搜尋條件，並可藉由調整搜尋設定來練習精簡結果。 在 [ **收集的資料]** 索引標籤上，您可以檢閱右側預覽區域中的專案，並練習修訂文字、套用標籤、輸入附注，以及標示要包含或排除最終報表的專案 (在檢 [閱主體許可權要求](subject-rights-requests-data-review.md) 的資料) 中尋找詳細資料。
+
+- 您不需要使用您的資訊來建立第一個要求。 如果您已準備好開始要求資料主體，只要將您的名稱和電子郵件地址取代為數據主體的資訊即可。
+
+若要接受所有設定並建立要求，請選取 [ **建立]**。 窗格將會關閉，而您會看到新的要求列在 [ **主體權利要求** ] 頁面上。 若要在建立要求之前變更任何預設設定，請選取 **[編輯要求詳細資料**]，這會將您放入 [主體許可權要求建立精靈](#use-the-subject-rights-request-creation-wizard)。
+
+> [!NOTE]
+> 您建立的任何要求都會計入您的試用版或付費訂閱配置，不論要求使用哪個資料主體的資訊。 標準 30 天資料保留期間會在要求關閉之後套用。 瞭解如何變更 [主體許可權要求的保留期限](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)。
 
 ## <a name="use-the-subject-rights-request-creation-wizard"></a>使用主體許可權要求建立精靈
 
