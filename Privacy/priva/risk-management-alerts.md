@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解如何在 Microsoft Priva Privacy Risk Management 中管理原則相符專案所引發的警示和問題。
-ms.openlocfilehash: cc24342bc86bf327892b34ed26650070a7addbf0
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+ms.openlocfilehash: a770a7b8d77e2d7792fc4ea8c68914dc62b48a27
+ms.sourcegitcommit: 0e68501654f702d8b8b694ae696bb8bd7fa7cea6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014383"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "65268326"
 ---
 # <a name="investigate-and-remediate-alerts-in-privacy-risk-management"></a>調查和補救隱私權風險管理中的警示
 
@@ -71,9 +71,9 @@ Priva 的 [ **概觀** ] 頁面提供最新結果的檢視，其中包含有關�
 
 - **通知擁有者**：通知內容擁有者有關偵測到的問題。
 
-- **套用保留標籤**：新增有關此專案資料保留的標籤。 [深入瞭解保留標籤](/microsoft-365/compliance/create-apply-retention-labels)。
+- **套用保留標籤**：新增此專案的標籤，以保留、刪除或保留，然後在指定的時間後刪除它。 [深入瞭解保留標籤](/microsoft-365/compliance/retention)。
 
-- **套用敏感度標籤**：新增有關此專案資料敏感度的標籤。 [深入瞭解敏感度標籤](/microsoft-365/compliance/sensitivity-labels)。
+- **套用敏感度標籤**：新增此專案的標籤，以識別其敏感度，並選擇性地新增包含視覺標記和加密的保護。 [深入瞭解敏感度標籤](/microsoft-365/compliance/sensitivity-labels)。
 
 - **標記為不相符**：將搜尋結果識別為誤判，以從考慮中移除內容專案。
 
