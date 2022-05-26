@@ -16,27 +16,27 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 瞭解 Microsoft Priva 試用版、查看試用期間要採取的建議動作，以及檢閱重要檔的連結。
-ms.openlocfilehash: 20b69f56d52cea59c124cd4b88f8cdcfa754f189
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: 瞭解Microsoft Priva試用，請參閱試用期間要採取的建議動作，以及檢閱重要檔的連結。
+ms.openlocfilehash: 5dfffcd90f019b71e74be007ed35dc21fb95aa99
+ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014393"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65678200"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>試用版劇本：Microsoft Priva
 
-歡迎使用 Microsoft Priva 試用劇本。
+歡迎使用Microsoft Priva試用劇本。
 
 此劇本可協助您保護個人資料，並建置具有隱私權彈性的工作場所，協助您充分利用 90 天的免費試用。
 
-使用 Microsoft 建議，您將瞭解 Priva 如何協助您主動識別並防範隱私權風險，例如資料擷取、資料傳輸和資料過度共用、協助您的組織大規模自動化和管理主體要求，以及讓您的員工做出智慧型資料處理決策。
+使用 Microsoft 建議，您將瞭解Priva如何協助您主動識別並防範隱私權風險，例如資料擷取、資料傳輸和資料過度共用、協助您的組織大規模自動化和管理主體要求，以及讓您的員工做出智慧型資料處理決策。
 
 ## <a name="getting-started"></a>快速入門
 
 *這些動作是有關在 90 天試用版中試用的主要功能建議。*
 
-設定必要條件以開始試用。 請注意，Priva 包含兩個主要解決方案：Priva Privacy Risk Management 和 Priva Subject Rights Requests，可分別嘗試和購買。 您可以在 Microsoft.com 上找到授權和購買詳細 [資料](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp)。
+設定必要條件以開始試用。 請注意，Priva包含兩個主要解決方案，Priva 隱私權風險管理和Priva 主體權利要求，可分別嘗試和購買。 您可以在 Microsoft.com 上找到授權和購買詳細 [資料](https://www.microsoft.com/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp)。
 
 ### <a name="privacy-risk-management"></a>隱私權風險管理
 
@@ -53,23 +53,23 @@ ms.locfileid: "65014393"
 
 - 大規模管理主體許可權要求
 
-## <a name="start-your-microsoft-priva-trial"></a>開始您的 Microsoft Priva 試用版
+## <a name="start-your-microsoft-priva-trial"></a>開始您的Microsoft Priva試用版
 
-如果您已準備好開始使用 Microsoft Priva，請遵循下列步驟來設定必要條件，並開始探索隱私權見解。
+如果您已準備好開始使用Microsoft Priva，請遵循下列步驟來設定必要條件，並開始探索隱私權見解。
 
-1. [確認訂用帳戶和授權](priva-setup.md#step-1-confirm-subscriptions-and-licensing)
-1. [設定使用者權限並指派角色](priva-setup.md#step-3-set-user-permissions-and-assign-roles)
+1. [確認訂用帳戶和授權](priva-setup.md#confirm-subscriptions-and-licensing)
+1. [設定使用者權限並指派角色](priva-setup.md#set-user-permissions-and-assign-roles)
 1. 選取 [開始試用]，將會為您完成下列作業：
-    - 已啟用 Priva 試用版授權， (即時) 
+    - Priva試用版授權會啟用， (這種情況會即時發生) 
     - 隱私權見解會產生 (這需要 24 小時) 
 
 ![歡迎畫面的螢幕擷取畫面。](../media/priva-insights.png)
 
 ## <a name="start-finding-and-visualizing-privacy-risks"></a>開始尋找隱私權風險並加以視覺化
 
-Priva 可藉由自動化個人資料資產的探索，並提供基本資訊的視覺效果，協助您瞭解組織儲存的資料。
+Priva藉由自動化個人資料資產的探索，並提供基本資訊的視覺效果，協助您瞭解組織儲存的資料。
 
-若要開始，請移至 [Microsoft Purview 合規性入口網站](https://compliance.microsoft.com/) 的 Priva 區段，並檢視下列頁面：
+若要開始，請移至Microsoft Purview 合規性入口網站的[[Priva](https://compliance.microsoft.com/)] 區段並檢視下列頁面：
 
 1. [概觀](priva-data-profile.md#explore-the-overview-page)：提供隱私權狀態的匯總檢視，包括Microsoft 365環境中的個人資料數量、類別、位置和移動。 此外，您可以看到個人資料過度共用、傳輸或未使用所造成的目前狀態和趨勢相關聯的隱私權風險。
 1. [資料設定檔](priva-data-profile.md#explore-the-data-profile-page)：提供組織在Microsoft 365中儲存的個人資料快照集，包括儲存體和地理位置)  (磁片區、類型和位置。
@@ -124,7 +124,7 @@ Priva 可藉由自動化個人資料資產的探索，並提供基本資訊的�
 
 ## <a name="learn-about-subject-rights-requests"></a>了解主體權限要求
 
-根據世界各地的特定隱私權法規，個人 (或資料主體) 可能會要求檢閱或管理公司所收集的個人資料。 這些要求有時也稱為資料主體要求， (DSR) 、資料主體存取要求 (DSAR) 或取用者權利要求。 Priva Subject Rights Requests 可協助您處理這些查詢。
+根據世界各地的特定隱私權法規，個人 (或資料主體) 可能會要求檢閱或管理公司所收集的個人資料。 這些要求有時也稱為資料主體要求， (DSR) 、資料主體存取要求 (DSAR) 或取用者權利要求。 Priva 主體權利要求可協助您處理這些查詢。
 
 1. [建立要求並收集資料](subject-rights-requests-create.md)
 1. [資料比對](subject-rights-requests-data-match.md)
@@ -144,7 +144,7 @@ Priva 可藉由自動化個人資料資產的探索，並提供基本資訊的�
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>管理主體許可權要求的資料比對
 
-透過資料比對，組織可以讓 Priva 根據確切提供的資料值來識別資料主體。
+透過資料比對，組織可以讓Priva根據確切提供的資料值來識別資料主體。
 
 1. [準備資料匯入](subject-rights-requests-data-match.md#prepare-for-data-import)
 1. [定義個人資料架構](subject-rights-requests-data-match.md#define-the-personal-data-schema)
@@ -152,7 +152,7 @@ Priva 可藉由自動化個人資料資產的探索，並提供基本資訊的�
 
 ## <a name="review-data-and-collaborate-on-subject-rights-requests"></a>在主體權利要求上查看資料和共同作業
 
-建立主體許可權要求之後，Priva 會使用您主體的相關輸入，在組織的Microsoft 365環境中尋找相符專案。 編譯此資料之後，您可以檢閱結果、選擇要包含的專案，以及視需要修訂資訊。
+建立主體許可權要求之後，Priva將使用您主體的相關輸入，在組織的Microsoft 365環境中尋找相符專案。 編譯此資料之後，您可以檢閱結果、選擇要包含的專案，以及視需要修訂資訊。
 
 1. [檢閱要求詳細資料並監視進度](subject-rights-requests-data-review.md#step-1-review-request-details-and-monitor-progress)
 1. [檢視和編輯搜尋查詢](subject-rights-requests-data-review.md#step-2-optional-view-and-edit-search-queries)  (選擇性) 
@@ -169,7 +169,7 @@ Priva 可藉由自動化個人資料資產的探索，並提供基本資訊的�
 
 ## <a name="automate-subject-rights-requests-tasks"></a>自動化主體權利要求工作
 
-啟用 Priva 的Power Automate流程，以自動化案例和使用者的重要工作，例如在 ServiceNow 中建立票證，或新增到期日相關行事曆提醒。
+為Priva啟用Power Automate流程，以自動化案例和使用者的重要工作，例如在 ServiceNow 中建立票證或新增到期日相關行事曆提醒。
 
 1. [從範本建立新的Power Automate流程](subject-rights-requests-automate.md#create-a-new-power-automate-flow-from-a-template)
 1. [共用Power Automate流程](subject-rights-requests-automate.md#share-a-power-automate-flow)
@@ -177,10 +177,10 @@ Priva 可藉由自動化個人資料資產的探索，並提供基本資訊的�
 
 ## <a name="additional-resources"></a>其他資源
 
-**Microsoft Docs**：取得 Microsoft Priva 運作方式的詳細資訊，以及如何為組織最佳地實作它。 [請造訪檔](priva-overview.md)。
+**Microsoft Docs**：取得Microsoft Priva運作方式，以及如何為組織最佳實作的詳細資訊。 [請造訪檔](priva-overview.md)。
 
-**為什麼 Microsoft Priva**：在此 [影片](https://www.youtube.com/watch?v=6OLky1biPIQ)中深入瞭解 Priva 功能。
+**為何Microsoft Priva**：深入瞭解此 [影片](https://www.youtube.com/watch?v=6OLky1biPIQ)中的Priva功能。
 
-**在這裡深入瞭解 Microsoft Priva**：部落格、方案 [、定價。](https://aka.ms/privacymgmt/web)
+**深入瞭解Microsoft Priva**：部落格、方案 [、定價。](https://aka.ms/privacymgmt/web)
 
-**購買 Microsoft Priva**：隱私權風險管理和主體權利要求會分別銷售。 您可以在 Microsoft.com 上找到授權和購買詳細 [資料](https://www.microsoft.com/en-us/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp)。
+**購買Microsoft Priva**：隱私權風險管理和主體權利要求會分別銷售。 您可以在 Microsoft.com 上找到授權和購買詳細 [資料](https://www.microsoft.com/en-us/security/business/privacy/privacy-management-software?rtc=1#office-ContentAreaHeadingTemplate-8x0pmkp)。
