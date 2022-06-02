@@ -1,5 +1,5 @@
 ---
-title: 在隱私權風險管理中傳送使用者通知
+title: 隱私權風險管理中的使用者通知
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 瞭解如何通知內容擁有者 Microsoft Priva Privacy Risk Management 找到的原則相符專案，以及如何使用這些電子郵件通知來補救問題。
-ms.openlocfilehash: 8969e1cd4d5859102b18bd46723d1be6e85d35f6
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: 瞭解如何通知內容擁有者Microsoft Priva 隱私權風險管理找到的原則相符專案，以及如何使用這些電子郵件通知來補救問題。
+ms.openlocfilehash: ae02d3bca9c63f8645cd9671628de61d83cb6117
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014373"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851648"
 ---
 # <a name="user-notifications-in-privacy-risk-management"></a>隱私權風險管理中的使用者通知
 
@@ -48,7 +48,7 @@ ms.locfileid: "65014373"
 您可以在建立新原則或編輯現有原則時，為所有原則類型設定電子郵件通知。 這些設定可在原則建立精靈的 [ **結果** ] 頁面上找到。 如需完整指示，請造訪 [定義結果：使用者通知和秘訣](risk-management-policies.md#define-outcomes-user-email-notifications-and-tips) 。
 
 > [!NOTE]
-> 隱私權風險管理傳送電子郵件通知的整體功能在 Priva **設定中受到** 控制。 預設會啟用此功能。 即使已在個別原則層級設定通知，關閉此設定也會停止所有電子郵件。 深入瞭解 [使用者通知電子郵件設定](priva-settings.md#user-notification-emails)。
+> 隱私權風險管理傳送電子郵件通知的整體功能是在Priva **設定** 中控制。 預設會啟用此功能。 即使已在個別原則層級設定通知，關閉此設定也會停止所有電子郵件。 深入瞭解 [使用者通知電子郵件設定](priva-settings.md#user-notification-emails)。
 
 ## <a name="send-notifications-in-teams"></a>在 Teams 中傳送通知
 
@@ -77,4 +77,4 @@ ms.locfileid: "65014373"
 
 ## <a name="legal-disclaimer"></a>法律免責聲明
 
-[Microsoft Priva 法律免責聲明](priva-disclaimer.md)
+[Microsoft Priva法律免責聲明](priva-disclaimer.md)

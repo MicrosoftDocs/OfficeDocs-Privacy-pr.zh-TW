@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解Microsoft Priva試用，請參閱試用期間要採取的建議動作，以及檢閱重要檔的連結。
-ms.openlocfilehash: 5dfffcd90f019b71e74be007ed35dc21fb95aa99
-ms.sourcegitcommit: 3c27ecf7c86c8a3db38cae8819fc090eed192b4f
+ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
+ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65678200"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65851688"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>試用版劇本：Microsoft Priva
 
@@ -32,7 +32,7 @@ ms.locfileid: "65678200"
 
 使用 Microsoft 建議，您將瞭解Priva如何協助您主動識別並防範隱私權風險，例如資料擷取、資料傳輸和資料過度共用、協助您的組織大規模自動化和管理主體要求，以及讓您的員工做出智慧型資料處理決策。
 
-## <a name="getting-started"></a>快速入門
+## <a name="getting-started"></a>開始使用
 
 *這些動作是有關在 90 天試用版中試用的主要功能建議。*
 
@@ -164,10 +164,10 @@ Priva藉由自動化個人資料資產的探索，並提供基本資訊的視覺
 完成主體許可權要求的資料檢閱之後，您可以繼續要求履行。
 
 1. [準備資料主體的最終報告](subject-rights-requests-reports.md)
-1. [與合作夥伴解決方案整合](subject-rights-requests-reports.md#integrate-with-partner-solutions)
+1. [透過 Microsoft 圖形 API 與 Power Automate 整合和擴充](subject-rights-requests-automate.md)
 1. [管理資料保留](subject-rights-requests-reports.md#retention-periods-for-reports-and-data)
 
-## <a name="automate-subject-rights-requests-tasks"></a>自動化主體權利要求工作
+## <a name="extend-with-power-automate"></a>使用 Power Automate 擴充
 
 為Priva啟用Power Automate流程，以自動化案例和使用者的重要工作，例如在 ServiceNow 中建立票證或新增到期日相關行事曆提醒。
 
