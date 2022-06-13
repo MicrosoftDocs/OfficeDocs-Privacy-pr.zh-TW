@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 瞭解如何在 Microsoft Priva Privacy Risk Management 中建立資料過度發行原則，以識別並保護可能過度存取的個人資料。
-ms.openlocfilehash: a0c87a84a78206862d9a79e1c16d17a90de5f040
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: 瞭解如何在Microsoft Priva 隱私權風險管理識別及保護可能過度存取的個人資料中建立資料過度公開原則。
+ms.openlocfilehash: 6efb92ed5d1b79b0fc69beebd5788062b5687269
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014503"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046677"
 ---
 # <a name="data-overexposure-policies-in-privacy-risk-management"></a>隱私權風險管理中的資料過度使用原則
 
@@ -39,7 +39,7 @@ ms.locfileid: "65014503"
 
 請遵循下列步驟來建立預設資料傳輸原則：
 
-1. 在 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)中，在左側導覽中尋找 [Priva Privacy Risk Management]，然後選取 [**原則]**。
+1. 在 [Microsoft Purview 合規性入口網站](https://compliance.microsoft.com/)的左側導覽中尋找 [Priva 隱私權風險管理]，然後選取 [**原則]**。
 
 2. 選 **取** 畫面右上角的 [建立原則]，這會顯示列出所有原則建立選項的飛出視窗窗格。
 
@@ -75,7 +75,7 @@ ms.locfileid: "65014503"
 
 完成下列步驟，以建立新的資料過度使用原則：
 
-1. 在 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)中，在左側導覽中尋找 [Priva Privacy Risk Management]，然後選取 [**原則]**。
+1. 在 [Microsoft Purview 合規性入口網站](https://compliance.microsoft.com/)的左側導覽中尋找 [Priva 隱私權風險管理]，然後選取 [**原則]**。
 
 2. 選取畫面右上方的 [ **建立** 原則] 按鈕，其中會顯示列出所有原則建立選項的飛出視窗窗格。
 

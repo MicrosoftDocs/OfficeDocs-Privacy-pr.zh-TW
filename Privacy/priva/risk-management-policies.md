@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 瞭解如何在 Microsoft Priva Privacy Risk Management 中建立和管理原則，以在Microsoft 365中處理貴組織的個人資料。
-ms.openlocfilehash: 87671cedc8c6cba75d5ad207b52831cdd2467187
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: 瞭解如何在Microsoft Priva 隱私權風險管理中建立和管理原則，以在Microsoft 365中處理貴組織的個人資料。
+ms.openlocfilehash: ff8ee92f192d2dc45998a97638e1bd0bada1fef3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014493"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046607"
 ---
 # <a name="privacy-risk-management-policies"></a>隱私權風險管理原則
 
@@ -43,7 +43,7 @@ ms.locfileid: "65014493"
 
 直接從範本建立原則時，會自動為您選擇大部分的設定，以協助您快速啟動並執行。 請遵循下列步驟，使用其中一個範本建立具有預設設定的原則：
 
-1. 在 [Microsoft Purview 合規性中心](https://compliance.microsoft.com/)，在左側導覽中尋找 [Priva Privacy Risk Management]，然後選取 [ **原則]**。
+1. 在 [Microsoft Purview 合規性中心](https://compliance.microsoft.com/)，在左側導覽中尋找 [Priva 隱私權風險管理]，然後選取 [**原則]**。
 
 2. 選 **取** 畫面右上角的 [建立原則]，這會顯示列出所有原則建立選項的飛出視窗窗格。
 
@@ -61,7 +61,7 @@ ms.locfileid: "65014493"
 
 請遵循下列步驟來建立原則：
 
-1. 在[Microsoft 365 合規性中心](https://compliance.microsoft.com/)中，在左側導覽中找出 [Priva Privacy Risk Management]。 從下拉式功能表中，選取 [ **原則]**。
+1. 在[Microsoft Purview 合規性入口網站](https://compliance.microsoft.com/)的左側導覽中找出Priva 隱私權風險管理。 從下拉式功能表中，選取 [ **原則]**。
 
 2. 選取 **[建立原則]**。
 
@@ -273,7 +273,7 @@ ms.locfileid: "65014493"
 
 若要編輯原則，請遵循下列步驟：
 
-1. 在[Microsoft 365 合規性中心](https://compliance.microsoft.com/)中，在左側導覽中找出 [Priva Privacy Risk Management]。 從下拉式功能表中，選取 [ **原則]**。
+1. 在[Microsoft Purview 合規性入口網站](https://compliance.microsoft.com/)的左側導覽中找出Priva 隱私權風險管理。 從下拉式功能表中，選取 [ **原則]**。
 
 2. 在 [原則 **] 頁面上** ，從其資料列中選取您想要編輯的原則，這會顯示該原則的詳細資料頁面。
 
@@ -295,4 +295,4 @@ ms.locfileid: "65014493"
 
 ## <a name="legal-disclaimer"></a>法律免責聲明
 
-[Microsoft Priva 法律免責聲明](priva-disclaimer.md)
+[Microsoft Priva法律免責聲明](priva-disclaimer.md)

@@ -1,5 +1,5 @@
 ---
-title: 產生報告以履行主體許可權要求
+title: 產生報告並關閉要求
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,16 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解如何管理由Microsoft Priva針對主體許可權要求所建立的資料封裝，並履行對資料主體的要求。
-ms.openlocfilehash: 999de2aecefab2c1685967d197839fbb72938f8a
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: 44113c480f81e6ef885de3649d9e04810c776d7c
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851658"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046687"
 ---
-# <a name="generate-reports-to-fulfill-a-subject-rights-request"></a>產生報告以履行主體許可權要求
+# <a name="generate-reports-and-close-a-request"></a>產生報告並關閉要求
 
-在 Microsoft Priva 中完成主體許可權要求的資料檢閱之後，您可以繼續完成要求。 Priva會建立報表，並在資料檢閱程式期間收集標示為 **Include** 的檔案。 從這些資料封裝選取的檔案可以提交給您的資料主體，以完成其要求。
+**在本文** 中：瞭解在主體許可權要求中產生的報表類型。 瞭解所收集資料的保留期間，並尋找將結果傳遞給資料主體並關閉要求的指示。
+
+完成主體許可權要求的資料檢閱之後，下一個階段是產生完成要求所需的報告。 Priva會建立報表，並在資料檢閱程式期間收集標示為 **Include** 的檔案。 從這些資料封裝選取的檔案可以提交給您的資料主體，以完成其要求。
 
 ## <a name="understanding-reports"></a>瞭解報表
 
@@ -37,7 +39,7 @@ ms.locfileid: "65851658"
    > 只有當您在資料檢閱期間將專案標示為 **Include** 時，才會產生資料封裝。
 
    > [!IMPORTANT]
-   > 只會針對要求的 **導** 出和 **存取** 類型產生資料封裝。 系統不會針對 **待處理要求的標記清單** 產生資料封裝。 檢閱 [主體許可權要求類型的詳細資料](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard)。
+   > 只會針對要求的 **導** 出和 **存取** 類型產生資料封裝。 系統不會針對 **待處理要求的標記清單** 產生資料封裝。 檢閱 [主體許可權要求類型的詳細資料](subject-rights-requests-create.md#request-types)。
 
 2. **供內部使用** 的報告：這些報告適用于貴組織的內部記錄，與主體許可權要求相關。 它們包含稽核記錄檔，以及您在資料檢閱期間套用標籤的所有檔案清單，以便追蹤或採取進一步的動作。
 
@@ -102,6 +104,12 @@ ms.locfileid: "65851658"
 4. 選 **取 [儲存** ] 以儲存您的設定。
 
 請務必確認您選擇的資料保留期間符合貴組織的原則和法律義務。
+
+## <a name="close-the-request"></a>關閉要求
+
+當您已執行與主體許可權要求相關的所有必要動作時，請選取要求詳細資料頁面右上方的 [ **關閉要求** ]，將要求標示為已關閉。 已關閉的要求表示它已不再作用中，表示不需要進行任何進一步的工作，即可滿足資料主體對貴組織的原始要求。
+
+無法重新開啟已關閉的要求，但您可以返回要求以檢視要求詳細資料和附注。 要求的報告會根據已建立的 [保留期間保留](#retention-periods-for-reports-and-data)。
 
 ## <a name="legal-disclaimer"></a>法律免責聲明
 

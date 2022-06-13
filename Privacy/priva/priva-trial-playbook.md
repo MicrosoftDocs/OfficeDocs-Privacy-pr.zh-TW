@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解Microsoft Priva試用，請參閱試用期間要採取的建議動作，以及檢閱重要檔的連結。
-ms.openlocfilehash: 9b1e3761e4b9166e3f89d906926981b8a0afbfdb
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851688"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046587"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>試用版劇本：Microsoft Priva
 
@@ -32,7 +32,7 @@ ms.locfileid: "65851688"
 
 使用 Microsoft 建議，您將瞭解Priva如何協助您主動識別並防範隱私權風險，例如資料擷取、資料傳輸和資料過度共用、協助您的組織大規模自動化和管理主體要求，以及讓您的員工做出智慧型資料處理決策。
 
-## <a name="getting-started"></a>開始使用
+## <a name="getting-started"></a>快速入門
 
 *這些動作是有關在 90 天試用版中試用的主要功能建議。*
 
@@ -69,7 +69,7 @@ ms.locfileid: "65851688"
 
 Priva藉由自動化個人資料資產的探索，並提供基本資訊的視覺效果，協助您瞭解組織儲存的資料。
 
-若要開始，請移至Microsoft Purview 合規性入口網站的[[Priva](https://compliance.microsoft.com/)] 區段並檢視下列頁面：
+若要開始，請移至[Microsoft Purview 合規性](https://compliance.microsoft.com/)入口網站的 [Priva] 區段，並檢視下列頁面：
 
 1. [概觀](priva-data-profile.md#explore-the-overview-page)：提供隱私權狀態的匯總檢視，包括Microsoft 365環境中的個人資料數量、類別、位置和移動。 此外，您可以看到個人資料過度共用、傳輸或未使用所造成的目前狀態和趨勢相關聯的隱私權風險。
 1. [資料設定檔](priva-data-profile.md#explore-the-data-profile-page)：提供組織在Microsoft 365中儲存的個人資料快照集，包括儲存體和地理位置)  (磁片區、類型和位置。
@@ -138,9 +138,9 @@ Priva藉由自動化個人資料資產的探索，並提供基本資訊的視覺
 
 主體版權管理系統管理員可以透過主要的主體許可權要求頁面開啟新的主體許可權要求。 精靈會引導您完成尋找資料主體相關個人資料的程式，並開始完成其要求的程式。
 
-1. [使用主體許可權要求精靈](subject-rights-requests-create.md#use-the-subject-rights-request-creation-wizard) – 建立要求
-1. [定義搜尋設定](subject-rights-requests-create.md#define-search-settings)
-1. [精簡搜尋設定](subject-rights-requests-create.md#refine-your-search)
+1. [使用主體許可權要求精靈](subject-rights-requests-create.md#create-a-request) – 建立要求
+1. [定義搜尋設定](subject-rights-requests-create.md#defining-search-settings)
+1. [精簡搜尋設定](subject-rights-requests-create.md#refining-your-search)
 
 ## <a name="manage-data-matching-for-subject-rights-requests"></a>管理主體許可權要求的資料比對
 
@@ -154,10 +154,10 @@ Priva藉由自動化個人資料資產的探索，並提供基本資訊的視覺
 
 建立主體許可權要求之後，Priva將使用您主體的相關輸入，在組織的Microsoft 365環境中尋找相符專案。 編譯此資料之後，您可以檢閱結果、選擇要包含的專案，以及視需要修訂資訊。
 
-1. [檢閱要求詳細資料並監視進度](subject-rights-requests-data-review.md#step-1-review-request-details-and-monitor-progress)
-1. [檢視和編輯搜尋查詢](subject-rights-requests-data-review.md#step-2-optional-view-and-edit-search-queries)  (選擇性) 
-1. [檢閱資料](subject-rights-requests-data-review.md#step-3-review-data)
-1. [關閉要求](subject-rights-requests-data-review.md#step-4-close-the-request)
+1. [檢閱要求詳細資料並監視進度](subject-rights-requests-workflow.md)
+1. [檢視和編輯搜尋查詢](subject-rights-requests-create.md#defining-search-settings)  (選擇性) 
+1. [檢閱資料](subject-rights-requests-data-review.md)
+1. [關閉要求](subject-rights-requests-reports.md)
 
 ## <a name="manage-subject-rights-requests-reports-and-fulfill-requests"></a>管理主體權利要求報告及履行要求
 

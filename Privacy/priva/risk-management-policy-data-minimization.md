@@ -15,13 +15,13 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 瞭解如何在 Microsoft Priva Privacy Risk Management 中建立資料最小化原則，以減少組織中未使用的個人資料數量。
-ms.openlocfilehash: c5a883de696923e4453ed28739e9bf68b618f8d1
-ms.sourcegitcommit: b5f7dcb73c0e3f677981e80106769cb546d00af4
+description: 瞭解如何在Microsoft Priva 隱私權風險管理中建立資料最小化原則，以減少組織中未使用的個人資料數量。
+ms.openlocfilehash: 251bd0ad73c840f818c945b7f68e4557299ad406
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65014474"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046617"
 ---
 # <a name="data-minimization-policies-in-privacy-risk-management"></a>隱私權風險管理中的資料最小化原則
 
@@ -39,7 +39,7 @@ ms.locfileid: "65014474"
 
 請遵循下列步驟來建立預設資料傳輸原則：
 
-1. 在 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)中，在左側導覽中尋找 [Priva Privacy Risk Management]，然後選取 [**原則]**。
+1. 在 [Microsoft Purview 合規性入口網站](https://compliance.microsoft.com/)的左側導覽中尋找 [Priva 隱私權風險管理]，然後選取 [**原則]**。
 
 2. 選 **取** 畫面右上角的 [建立原則]，這會顯示列出所有原則建立選項的飛出視窗窗格。
 
@@ -72,7 +72,7 @@ ms.locfileid: "65014474"
 
 完成下列步驟以建立新的資料傳輸原則：
 
-1. 在 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)中，在左側導覽中尋找 [Priva Privacy Risk Management]，然後選取 [**原則]**。
+1. 在 [Microsoft Purview 合規性入口網站](https://compliance.microsoft.com/)的左側導覽中尋找 [Priva 隱私權風險管理]，然後選取 [**原則]**。
 
 2. 選取畫面右上方的 [ **建立** 原則] 按鈕，其中會顯示列出所有原則建立選項的飛出視窗窗格。
 

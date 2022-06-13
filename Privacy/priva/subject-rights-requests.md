@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Priva中的主體權利要求解決方案可協助您尋找個人資料，並共同檢閱內容和建立報表。
-ms.openlocfilehash: d62581b1c47dbffde9dedab6e4affc076516677f
-ms.sourcegitcommit: 9315064bf5bb9e889318e61ec5f082f36c815e1e
+ms.openlocfilehash: ecb1e1984116b29f51cde21c9a4a554cb8183ae9
+ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65851678"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046707"
 ---
 # <a name="learn-about-priva-subject-rights-requests"></a>瞭解Priva 主體權利要求
 
@@ -53,9 +53,9 @@ Priva使用Microsoft 365的基礎功能來識別組織資料中的個人資料�
 
 使用其中一個內建Power Automate範本來設定一般工作的流程，例如在 ServiceNow 中設定行事曆提醒或建立要求記錄，以擴充自動化功能。 您也可以使用Microsoft 365主體權利要求 API，將自動化引入現有的主體權限原則。
 
-## <a name="getting-started"></a>開始使用
+## <a name="next-steps"></a>後續步驟
 
-請造訪 [建立主體許可權要求](subject-rights-requests-create.md) ，以瞭解如何使用您的第一個要求來陳述。
+請造 [訪瞭解要求工作流程和詳細資料頁面](subject-rights-requests-workflow.md) ，以瞭解建立及處理主體許可權要求的進度步驟。 若要開始使用您的第一個要求，請參閱 [建立主體許可權要求](subject-rights-requests-create.md)。
 
 ## <a name="legal-disclaimer"></a>法律免責聲明
 
