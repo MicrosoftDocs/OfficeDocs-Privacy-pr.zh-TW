@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Priva 中尋找並視覺化個人資料
+title: 在Microsoft Priva中尋找並視覺化個人資料
 f1.keywords:
 - CSH
 ms.author: chvukosw
@@ -16,44 +16,49 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 瞭解 Priva 中的概觀和資料設定檔，以及如何深入瞭解貴組織Microsoft 365環境中的個人資料。
-ms.openlocfilehash: e09becfbbd64128f44ef6d1d29fc367850f13411
-ms.sourcegitcommit: bbaa4400bc9c7db9bdb2784e3af160daf5d08290
+description: 瞭解Priva中的概觀和資料設定檔，以及如何深入瞭解組織Microsoft 365環境中的個人資料。
+ms.openlocfilehash: 932759b681554d479cff1d041bbe12a383fb969e
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059747"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060056"
 ---
-# <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>在 Microsoft Priva 中尋找並視覺化個人資料
+# <a name="find-and-visualize-personal-data-in-microsoft-priva"></a>在Microsoft Priva中尋找並視覺化個人資料
 
-Microsoft Priva 可藉由自動化個人資料資產的探索，並提供基本資訊的視覺效果，協助您瞭解組織儲存的資料。 您可以在 **概觀** 和 **資料設定檔** 頁面上找到這些視覺效果。 您可以根據這裡的深入解析來強化組織的隱私權狀態，並降低風險。
+Microsoft Priva藉由自動化個人資料資產的探索，並提供基本資訊的視覺效果，協助您瞭解組織儲存的資料。 您可以在 **概觀** 和 **資料設定檔** 頁面上找到這些視覺效果。 您可以根據這裡的深入解析來強化組織的隱私權狀態，並降低風險。
 
-若要開始，請移至 [Microsoft Purview 合規性入口網站](https://compliance.microsoft.com/) 的 Priva 區段，並檢視下列頁面：
+若要開始，請移至[Microsoft Purview 合規性](https://compliance.microsoft.com/)入口網站的 [Priva] 區段，並檢視下列頁面：
 
 - **概觀**：提供組織在Microsoft 365中資料的整體檢視。 隱私權系統管理員可以監視趨勢和活動、識別和調查涉及個人資料的潛在風險，以及跳板到重要活動，例如原則管理或主體權利要求動作。
 - **資料設定檔**：提供組織在Microsoft 365中儲存的個人資料快照集。 此頁面可協助您視覺化個人資料的所在位置、組織中最普遍的類型，以及您Microsoft 365環境中各位置存在多少種不同的類型。 您也可以從這個位置探索個人資料。
 
-當您的資料變更和 Priva 產生新的結果時，這些頁面上顯示的資訊將會更新。 請注意，可能需要 24 小時的時間，新資料才會在圖表中呈現。
+當您的資料變更和Priva產生新的結果時，這些頁面上顯示的資訊將會更新。 請注意，可能需要 24 小時的時間，新資料才會在圖表中呈現。
 
 ## <a name="explore-the-overview-page"></a>探索概觀頁面
 
-概觀頁面包含三個主要區段。 頁面頂端的磚提供有關您資料的最新基本統計資料。 關鍵深入解析一節提供重要興趣趨勢和領域的調查商機。 如需資料環境的進一步觀點，請參閱趨勢線圖表。 若要深入瞭解這些領域，請參閱下列各節。
+[**Priva概觀**] 頁面可供所有Priva客戶使用。 此頁面如下所示，包含三個主要區段：
 
-![範例概觀頁面。](../media/priva-overview.png)
+1. 頁面頂端的[磚](#top-tiles)提供有關您資料的最新基本統計資料。 
+2. [[金鑰深入解析]](#key-insights)區段提供重要興趣趨勢和領域的調查商機。
+3. [趨勢線圖表](#trendline-graphs)提供資料環境的其他檢視方塊。
+
+**Priva概觀頁面：** 
+ ![範例概觀頁面。](../media/priva-overview.png)
 
 ### <a name="top-tiles"></a>頂端磚
 
 #### <a name="policy-matches-over-past-7-days"></a>過去 7 天的原則相符專案
 
-在 Priva Privacy Risk Management 內設定原則時，系統會根據您的原則，針對可能造成隱私權風險的特定條件評估您的資料。 原則相符專案表示可能需要進一步檢閱或補救的資料探索。 此圖格會顯示過去七天內發生了多少個原則相符專案。 無論原則是開啟或正在測試模式中執行，這裡都會顯示相符專案，因此您可以查看所有作用中原則的結果。 選取此圖格會帶您前往隱私權風險管理之 [原則 **] 頁面的** 篩選檢視，其中顯示在過去七天內發生相符的原則。
+當原則在Priva 隱私權風險管理內設定時，系統會根據您的原則，針對可能造成隱私權風險的特定條件來評估您的資料。 原則相符專案表示可能需要進一步檢閱或補救的資料探索。 此圖格會顯示過去七天內發生了多少個原則相符專案。 無論原則是開啟或正在測試模式中執行，這裡都會顯示相符專案，因此您可以查看所有作用中原則的結果。 選取此圖格會帶您前往隱私權風險管理之 [原則 **] 頁面的** 篩選檢視，其中顯示在過去七天內發生相符的原則。
 
 #### <a name="items-with-personal-data"></a>具有個人資料的專案
 
-若要查看 Priva 在工作中的自動化探索功能，請檢閱 **[含個人資料的專案** ] 圖格。 此圖格會顯示過去七天內，根據您的設定在組織Microsoft 365環境中探索到多少新專案，其中包含個人資料。 選取此圖格將會載入已探索到最新 100 個專案的檢視。
+若要查看Priva的自動化工作探索功能，請檢閱 **[具有個人資料的專案**] 圖格。 此圖格會顯示過去七天內，根據您的設定在組織Microsoft 365環境中探索到多少新專案，其中包含個人資料。 選取此圖格將會載入已探索到最新 100 個專案的檢視。
 
 #### <a name="subject-rights-requests"></a>主體許可權要求
 
-[概觀] 頁面包含一個圖格，其中顯示過去七天內已建立多少個主體許可權要求。 如果適用，第二個圖格會根據您指定的期限顯示逾期的要求數目，而且可能需要立即注意。 選取這些磚會將具有適當許可權的使用者帶到 Priva 的主體許可權要求頁面。
+[概觀] 頁面包含一個圖格，其中顯示過去七天內已建立多少個主體許可權要求。 如果適用，第二個圖格會根據您指定的期限顯示逾期的要求數目，而且可能需要立即注意。 選取這些磚會將具有適當許可權的使用者帶到主要的 [主體權利] 頁面。
 
 ### <a name="key-insights"></a>關鍵深入解析
 
@@ -65,7 +70,7 @@ Microsoft Priva 可藉由自動化個人資料資產的探索，並提供基本�
 
 #### <a name="policies-with-the-most-matches-in-the-last-week"></a>過去一周相符專案最多的原則
 
-此深入解析會展示過去七天內最常比對的原則，不論是處於「開啟」模式還是「測試」。 當您的 Priva 使用者調整其隱私權行為時，這有助於說明您原則的效能，以及進行中工作的效果。
+此深入解析會展示過去七天內最常比對的原則，不論是處於「開啟」模式還是「測試」。 當您的Priva使用者調整其隱私權行為時，這有助於說明您原則的效能，以及進行中工作的效果。
 
 選 **取 [檢視摘要** ]，以取得符合的前 10 個原則的摘要，以及相關聯內容的內容擁有者。 您也會看到因為這些原則相符專案而傳送的使用者通知數目，以及所採取的使用者動作數目。 選 **取 [調查** ] 以檢視 [隱私權風險管理] 中的 [原則] 頁面，篩選以顯示摘要檢視中的原則。 此調查檢視會顯示原則完整存留期的統計資料。 選取它以查看詳細資料，例如最初偵測到相符的專案。
 
@@ -91,7 +96,7 @@ Microsoft Priva 可藉由自動化個人資料資產的探索，並提供基本�
 
 #### <a name="personal-data-found-in-organization"></a>在組織中找到的個人資料
 
-此圖表顯示在您的Microsoft 365環境中探索到與設定相符的個人資料數量，以及其所在位置的趨勢。 在 Priva 執行足夠時間之後，以及在SharePoint、OneDrive、Teams和/或 Exchange 內找到個人資料的內容之後，它就會開始填入。
+此圖表顯示在您的Microsoft 365環境中探索到與設定相符的個人資料數量，以及其所在位置的趨勢。 它會在Priva執行足夠時間之後，以及在SharePoint、OneDrive、Teams和/或 Exchange 內找到個人資料的內容之後開始填入。
 
 #### <a name="data-transfers-detected-in-organization"></a>組織中偵測到的資料傳輸
 
@@ -125,9 +130,10 @@ Microsoft Priva 可藉由自動化個人資料資產的探索，並提供基本�
 
 ## <a name="explore-the-data-profile-page"></a>探索資料設定檔頁面面
 
-Priva 中的資料設定檔頁面面提供您組織在Microsoft 365中儲存的個人資料及其所在位置的快照集檢視。 它也可讓您深入瞭解您儲存的資料類型。 主要磚包含下列專案。
+如下所示 **的 [資料設定檔**] 頁面提供您組織在Microsoft 365中儲存的個人資料及其所在位置的快照集檢視。 它也可讓您深入瞭解您儲存的資料類型。 頁面上的圖表如下所述。
 
-![範例資料設定檔頁面面。](../media/priva-dataprofile.png)
+**Priva資料設定檔頁面面：** 
+ ![範例資料設定檔頁面面。](../media/priva-dataprofile.png)
 
 ### <a name="personal-data-type-instances-detected-in-microsoft-365"></a>在 Microsoft 365 中偵測到的個人資料類型實例
 
@@ -149,4 +155,4 @@ Priva 中的資料設定檔頁面面提供您組織在Microsoft 365中儲存的�
 
 ## <a name="legal-disclaimer"></a>法律免責聲明
 
-[Microsoft Priva 法律免責聲明](priva-disclaimer.md)
+[Microsoft Priva法律免責聲明](priva-disclaimer.md)

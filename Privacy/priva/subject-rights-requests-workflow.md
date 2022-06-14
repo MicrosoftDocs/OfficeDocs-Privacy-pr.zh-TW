@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解Microsoft Priva 主體權利要求中的工作流程步驟和要求詳細資料頁面。
-ms.openlocfilehash: 389c587d8d8b56d0654a78281825c8f98a6244d3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: 794176260f6377862d34a66dc71cef1e811188b9
+ms.sourcegitcommit: fe651dab4c89e67b21d37531c04e3996b7af1138
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046728"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66060083"
 ---
 # <a name="understand-the-workflow-and-request-details-pages"></a>瞭解工作流程和要求詳細資料頁面
 
@@ -45,9 +45,15 @@ ms.locfileid: "66046728"
 
 ## <a name="understanding-the-request-details-page"></a>瞭解要求詳細資料頁面
 
-從 Microsoft Purview 合規性入口網站的左側導覽中選 **取 [Priva 主體權利要求**]，以存取您組織建立的要求並檢視其狀態。 主要 [主體權利要求] 頁面上的狀態卡會顯示作用中、已關閉和逾期的要求數目，以及最高要求類型。 狀態卡下方的表格會列出您組織所建立的所有要求，最上方有最近建立的要求。
+從 Microsoft Purview 合規性入口網站的左側導覽中選 **取 [Priva 主體權利要求**]，以存取您組織建立的要求並檢視其狀態。 主 [主體權利要求] 頁面上的狀態卡如下所示，顯示作用中、已關閉和逾期要求的數目，以及最高要求類型。 狀態卡下方的表格會列出您組織所建立的所有要求，最上方有最近建立的要求。
 
-若要開啟要求的詳細資料頁面，請從資料表中選取要求名稱。 您可以在這裡深入瞭解要求的屬性、搜尋結果和要求的狀態。 此頁面將成為您的中樞，可在管理找到的檔案、建立報表和匯出，以及完成要求時共同作業。
+**主體許可權要求主頁面：**  
+ ![主體許可權要求主頁面。](../media/priva-srr-overview.png)
+
+若要開啟要求的詳細資料頁面，請從資料表中選取要求名稱。 您可以在這裡深入瞭解要求的屬性、搜尋結果和要求的狀態。 如下所示的詳細資料頁面會成為您的中樞，以便在管理找到的檔案、建立報表和匯出，以及完成要求時共同作業。
+
+**要求詳細資料頁面：** 
+ ![主體許可權要求詳細資料頁面。](../media/priva-srr-detailspage.png)
 
 ### <a name="overview-tab"></a>概觀索引標籤
 
