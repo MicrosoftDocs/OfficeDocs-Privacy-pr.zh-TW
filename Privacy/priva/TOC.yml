@@ -30,11 +30,15 @@
   items:
     - name: 了解主體權限要求
       href: subject-rights-requests.md
-    - name: 建立要求
+    - name: 了解工作流程並要求詳細資料頁面
+      href: subject-rights-requests-workflow.md
+    - name: 建立要求並定義您的搜尋
       href: subject-rights-requests-create.md
+    - name: 資料預估與擷取
+      href: subject-rights-requests-data-retrieval.md
     - name: 查看資料並共同作業
       href: subject-rights-requests-data-review.md
-    - name: 產生報告以履行要求
+    - name: 取得報告並關閉要求
       href: subject-rights-requests-reports.md
     - name: 與 Microsoft Graph API 和 Power Automate 整合
       href: subject-rights-requests-automate.md
