@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解Microsoft Priva試用，請參閱試用期間要採取的建議動作，以及檢閱重要檔的連結。
-ms.openlocfilehash: cd4209fe847a6aaad34d0f417409e9a5e7fd20a3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: cb8772d78fbe8246259737de7d933109bacb4ca7
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046587"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166632"
 ---
 # <a name="trial-playbook-microsoft-priva"></a>試用版劇本：Microsoft Priva
 
@@ -69,7 +69,7 @@ ms.locfileid: "66046587"
 
 Priva藉由自動化個人資料資產的探索，並提供基本資訊的視覺效果，協助您瞭解組織儲存的資料。
 
-若要開始，請移至[Microsoft Purview 合規性](https://compliance.microsoft.com/)入口網站的 [Priva] 區段，並檢視下列頁面：
+若要開始，請移至Microsoft Purview 合規性入口網站的[[Priva](https://compliance.microsoft.com/)] 區段並檢視下列頁面：
 
 1. [概觀](priva-data-profile.md#explore-the-overview-page)：提供隱私權狀態的匯總檢視，包括Microsoft 365環境中的個人資料數量、類別、位置和移動。 此外，您可以看到個人資料過度共用、傳輸或未使用所造成的目前狀態和趨勢相關聯的隱私權風險。
 1. [資料設定檔](priva-data-profile.md#explore-the-data-profile-page)：提供組織在Microsoft 365中儲存的個人資料快照集，包括儲存體和地理位置)  (磁片區、類型和位置。
@@ -138,7 +138,7 @@ Priva藉由自動化個人資料資產的探索，並提供基本資訊的視覺
 
 主體版權管理系統管理員可以透過主要的主體許可權要求頁面開啟新的主體許可權要求。 精靈會引導您完成尋找資料主體相關個人資料的程式，並開始完成其要求的程式。
 
-1. [使用主體許可權要求精靈](subject-rights-requests-create.md#create-a-request) – 建立要求
+1. [使用主體許可權要求精靈](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) – 建立要求
 1. [定義搜尋設定](subject-rights-requests-create.md#defining-search-settings)
 1. [精簡搜尋設定](subject-rights-requests-create.md#refining-your-search)
 

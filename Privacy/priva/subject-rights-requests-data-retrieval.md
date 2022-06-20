@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 瞭解如何擷取資料，以及如何修改Microsoft Priva 主體權利要求中的搜尋設定。
-ms.openlocfilehash: 9d35a7f37861d7d3ecc5d1bac7db92c75939b4c3
-ms.sourcegitcommit: 3c83e8133a5a71f4e1d76a0b2981ab3ec9cd6602
+ms.openlocfilehash: a2586e987f7a03905feedfd587aab43dba3d9e6b
+ms.sourcegitcommit: 8cbafebb1a1b26a0bd92e500a1e6d6c60243c64b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046723"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66166662"
 ---
-# <a name="data-estimate-and-retrieval"></a>資料估計和擷取
+# <a name="data-estimate-and-retrieval"></a>資料預估與擷取
 
 **在本文** 中：瞭解主體許可權要求的資料估計和資料擷取階段。 瞭解如何檢視要求的搜尋查詢，並進行編輯以精簡搜尋。
 
@@ -36,7 +36,7 @@ ms.locfileid: "66046723"
 
 要求在 **資料預估** 階段暫停的原因有兩個：
 
-1. 當您第一次建立要求時，可以選擇先取得估計值。 如需詳細資訊，請參閱 [建立要求](subject-rights-requests-create.md#create-a-request) 中的步驟 5。
+1. 建立要求時，您可以選擇先取得估計值。 如需詳細資訊，請參閱 [建立自訂要求的](subject-rights-requests-create.md#custom-setup-guided-process-to-choose-all-settings) 步驟 6。
 
 2. 如果估計值預計會傳回大量的專案來檢閱 (超過 10K 個專案) ，則工作流程會暫停。 此時，您可以預覽結果，並決定是否要 [編輯搜尋查詢](subject-rights-requests-create.md#refining-your-search) ，或繼續擷取已識別的專案。
 
@@ -59,7 +59,7 @@ ms.locfileid: "66046723"
 
 ## <a name="retrieve-data"></a>擷取
 
-資料擷取階段是擷取包含資料主體個人資料的所有檔案、電子郵件、聊天、影像和其他內容專案。 這些專案會放在 Azure Blob 儲存體容器中，以供檢閱。 視資料量而定，資料擷取可能需要幾分鐘或更長的時間。
+資料擷取階段是擷取包含資料主體個人資料的所有檔案、電子郵件、聊天、影像和其他內容專案。 專案會放在Azure Blob 儲存體容器中以供檢閱。 視資料量而定，資料擷取可能需要幾分鐘或更長的時間。
 
 當此階段完成時，要求會自動移至 [ **檢閱資料**] 的下一個階段。
 
